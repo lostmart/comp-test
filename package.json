@@ -1,12 +1,9 @@
 {
-	"name": "simple-component-library",
+	"name": "codeme.martin-comp-test",
 	"version": "0.1.0",
 	"main": "dist/index.js",
 	"module": "dist/index.js",
-	"files": [
-		"dist",
-		"README.md"
-	],
+	"files": ["dist"],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/lostmart/comp-test.git"
@@ -28,5 +25,8 @@
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject",
 		"build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+	},
+	"dependencies": {
+		"codeme.martin-comp-test": "^0.1.0"
 	}
 }
